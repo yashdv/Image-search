@@ -8,11 +8,11 @@ Dataset: CALTECH-101
 
 Approach: Bag of Words model (c++, openCV), GIST (matlab)
 
-********* Compile *******************************
+********* Compile *******************************  
 make  
 
 
-*********** Run ********************************
+*********** Run ********************************  
 ./a.out 0/1 xml  
 ./a.out 0/1 xml img  
 
