@@ -1,0 +1,25 @@
+all: compute_gist
+
+WFFTINC=
+WFFTLIB=
+# WFFTINC=-I/scratch/adonis/mordelet/install/include
+# WFFTLIB=-L/scratch/adonis/mordelet/install/lib
+
+
+# gist.c: ../../descriptors/gist.c
+# cp $< $@
+
+
+gist.o: gist.c gist.h standalone_image.h
+gcc -c -Wall -g $< $(WFFTINC) -DUSE_GIST -DSTANDALONE_GIST
+
+standalone_image.o: standalone_image.c standalone_image.h
+gcc -c -Wall -g $<
+
+compute_gist: gist-classifier.cpp gist.o standalone_image.o
+g++ -Wall -g -o $@ $^ $(WFFTLIB) -lfftw3f
+
+
+
+clean:
+rm -f *.o compute_gist

@@ -1,0 +1,78 @@
+SURF
+SURF
+flann
+vovab_sz = 500, 250
+Clustering 279663 features
+succ_q = 223
+num_q = 243
+
+real	4m28.730s
+user	4m25.617s
+sys	0m2.740s
+----------------------------------------
+
+SURF
+SURF
+flann
+vovab_sz = 1000
+Clustering 279663 features
+succ_q = 216
+num_q = 243
+
+real	6m13.188s
+user	6m10.327s
+sys	0m2.304s
+----------------------------------------
+
+SURF
+SURF
+flann
+vovab_sz = 2000
+Clustering 279663 features
+Testing
+succ_q = 215
+num_q = 243
+
+real	9m59.159s
+user	9m55.513s
+sys	0m2.660s
+----------------------------------------
+
+SIFT
+SIFT
+flann
+vovab_sz = 500
+Clustering 72865 features
+succ_q = 206
+num_q = 243
+
+real	1m18.969s
+user	1m17.733s
+sys	0m1.088s
+----------------------------------------
+
+SIFT
+SIFT
+flann
+vovab_sz = 1000
+Clustering 72865 features
+succ_q = 201
+num_q = 243
+
+real	1m49.616s
+user	1m48.259s
+sys	0m1.072s
+----------------------------------------
+
+SIFT
+SIFT
+flann
+vovab_sz = 2000
+Clustering 72865 features
+succ_q = 211
+num_q = 243
+
+real	2m36.112s
+user	2m34.794s
+sys	0m1.036s
+----------------------------------------

@@ -1,0 +1,41 @@
+SIFT
+SIFT
+FlannBased
+vocab sz = 500
+Clustering 118418 features
+succ_q = 532
+num_q = 814
+----------------------------------------------------------------
+SIFT
+SIFT
+FlannBased
+vocab sz = 1000
+Clustering 118418 features
+succ_q = 540
+num_q = 814
+----------------------------------------------------------------
+SIFT
+SIFT
+FlannBased
+vocab sz = 2000
+Clustering 118418 features
+succ_q = 544
+num_q = 814
+----------------------------------------------------------------
+SURF
+SURF
+FlannBased
+vocab sz = 500
+Clustering 439661 features
+succ_q = 574
+num_q = 814
+----------------------------------------------------------------
+SURF
+SURF
+FlannBased
+vocab sz = 1000
+Clustering 439661 features
+succ_q = 568
+num_q = 814
+----------------------------------------------------------------
+
